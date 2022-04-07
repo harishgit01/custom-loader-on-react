@@ -36,7 +36,7 @@ export default function Loader() {
         <div className="text-center pt-2">
           {count === 100 ? "You have successfully downloaded" : count + "%"}
         </div>
-        <div className="d-flex justify-content-center">
+        <div className="d-flex justify-content-center mt-3">
           <button onClick={() => setPause(!pause)}>
             {IsTrue ? "Resume" : "pause"}
           </button>
